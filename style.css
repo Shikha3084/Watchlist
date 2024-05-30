@@ -162,7 +162,7 @@ p{
 /*-----background------*/
 .Genre-col{
     flex-basis: 31%;
-    background: blanchedalmond;
+    background: #C39898;
     opacity: 80%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -178,5 +178,5 @@ h3{
 
 /*----hover effect-----*/
 .Genre-col:hover{
-    box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+    box-shadow: 0 0 10px 0 rgba(111, 78, 55, 1);
 }
