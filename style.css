@@ -239,6 +239,37 @@ h3{
 
 }
 
+/*-------type-------*/
+.type{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.type-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.type-col img{
+    width: 100%;
+    
+    border-radius: 10px;
+}
+.type-col p{
+    padding: 0%;
+}
+.type-col h3{
+    margin-top: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+
+
+
 /*----------footer---------*/
 .footer{
     background-color: #74512D;
