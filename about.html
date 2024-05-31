@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Watchlist website by Shikha </title>
+        <link rel="stylesheet" href="style.css">
+        <!--google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav> 
+            <!---Nav bar with logo and menu-->
+            <a href="index.html"><img src="Photos/logoS.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <!--close icon in mobile responsive-->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">LIST</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i> 
+            </nav> 
+            <h1>About Us</h1>
+        </section>
+
+
+<!-----------content------------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+                <h1>What Emotion does Watchlist hold</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque voluptatem necessitatibus possimus impedit. Voluptatum quae minima voluptates facilis tempora quis nostrum labore, magni dolor temporibus, quibusdam, vero eligendi tenetur.</p>
+                <a href="" class="hero-btn add-btn">Visit Watchlist</a>
+        </div>
+        <div class="about-col">
+            <img src="Photos/about.jpg">
+                
+        </div>
+    </div>
+</section>
+
+
+<!-----------footer------------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint nesciunt dolorem eos dolore, <br>incidunt corrupti commodi alias neque, cumque error veniam, </p>
+    <div class="icons">
+        <!----error-->
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---javascript for togle menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-150px";
+            }
+        </script>
+
+
+
+    </body>
+</html>
