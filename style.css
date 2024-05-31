@@ -390,10 +390,34 @@ h3{
 }
 .add-btn:hover{
     color: aliceblue;
-    
+
 }
 
-
+/*----------list---------*/
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imgs img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #74512D;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #430A5D ;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+}
+.imgs img:hover{
+    filter: grayscale();
+    transform: scale(1.03);
+}
+.list h1{
+    margin-top: 60px;
+    text-align: center;
+}
 
 
 
